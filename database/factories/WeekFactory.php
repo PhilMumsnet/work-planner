@@ -7,22 +7,13 @@ use Illuminate\Database\Eloquent\Factories\Factory;
 
 class WeekFactory extends Factory
 {
-    /**
-     * The name of the factory's corresponding model.
-     *
-     * @var string
-     */
+    /** @var string */
     protected $model = Week::class;
 
-    /**
-     * Define the model's default state.
-     *
-     * @return array
-     */
-    public function definition()
+    public function definition(): array
     {
         return [
-            //
+            'start_date' => now(),
         ];
     }
 }

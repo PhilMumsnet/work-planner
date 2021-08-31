@@ -11,7 +11,6 @@ Allow the user to add tasks and change their start/stop times
 
 https://dbdiagram.io/d/612899ac6dc2bb6073be07b6
 
-
 ## Additional notes
 
 Display timeline

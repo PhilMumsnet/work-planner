@@ -9,40 +9,10 @@ Allow the user to add tasks and change their start/stop times
 
 ## Database structure
 
-weeks table
-    id
-    year
-    week number
-    start date
-    many to one with task weeks
-
-tasks table
-    id
-    many to one with task weeks
-
-task weeks table
-    id
-    week_id
-    task_id
-    many to many with resources
-
-resource
-    id
-    name
-    initials
-    many to many with task weeks
-
-task week resource join table
-    resource id
-    task week id
+https://dbdiagram.io/d/612899ac6dc2bb6073be07b6
 
 
-
-
-
-
-
-
+## Additional notes
 
 Display timeline
 Summary of resource against week for each person

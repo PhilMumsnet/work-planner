@@ -16,7 +16,7 @@ class CreateWeeksTable extends Migration
             // ...
 
             // Data
-            $table->date('start_date');
+            $table->date('start_date')->unique();
 
             $table->timestamps();
         });
